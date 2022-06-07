@@ -1,0 +1,23 @@
+package sequencial;
+
+import java.util.Scanner;
+
+public class ExercicioInss {
+
+	public static void main(String[] args) {
+		//O exercício é calcular o desconto de INSS (11%) no salário de um funcionário.
+		
+		
+		double salarioBruto, descontoInss, salarioLiquido;
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Informe o salário bruto do funcionário: R$ ");
+		salarioBruto = sc.nextDouble();
+		descontoInss = salarioBruto * 0.11;
+		salarioLiquido = salarioBruto - descontoInss;
+		
+		System.out.printf("DESCONTO: O valor de desconto do INSS sobre o salário bruto é %.2f\n", descontoInss);
+		System.out.printf("SALÁRIO LÍQUIDO: R$ %.2f", salarioLiquido);
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;sequencial.variaveis.java&apos; to &apos;Variaveis.java&apos;&#x0D;&#x0A;- Original project: &apos;logica&apos;&#x0D;&#x0A;- Original element: &apos;sequencial.variaveis.java&apos;&#x0D;&#x0A;- Renamed element: &apos;sequencial.Variaveis.java&apos;" description="Rename compilation unit &apos;variaveis.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;sequencial{variaveis.java" name="Variaveis.java" references="false" stamp="1654124965526" version="1.0"/>
+</session>

@@ -1,0 +1,11 @@
+package sequencial;
+
+public class variaveis {
+
+	public static void main(String[] args) {
+
+		int quantidade = 1500;
+		float valorMercadoria = 
+	}
+
+}

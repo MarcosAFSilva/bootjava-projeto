@@ -1,0 +1,26 @@
+package sequencial;
+
+import java.util.Scanner;
+
+public class Aumento1 {
+
+	public static void main(String[] args) {
+
+		double salarioBruto, porcentagemAumento;
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Informe o salário bruto: R$ ");
+		salarioBruto = sc.nextDouble();
+		
+		System.out.println("Informe a porcentagem a ser aplicada: (%)");
+		porcentagemAumento = sc.nextDouble();
+		
+		salarioBruto = salarioBruto * (porcentagemAumento / 100);
+		
+		System.out.printf("O novo salário bruto é R$ %.2f", salarioBruto);
+		
+		
+		sc.close();
+	}
+
+}

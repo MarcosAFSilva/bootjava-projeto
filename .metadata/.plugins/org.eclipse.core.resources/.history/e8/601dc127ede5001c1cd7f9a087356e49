@@ -1,0 +1,50 @@
+package sequencial;
+
+import java.util.Scanner;
+
+public class ExercicioMedia4 {
+
+	public static void main(String[] args) {
+		
+		double n1, n2, n3, n4, peso1, peso2, peso3, peso4;
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Informe o primeiro valor:");
+		n1 = sc.nextDouble();
+		System.out.println("Este valor terá peso:");
+		peso1 = sc.nextDouble();
+		
+		n1 = n1 * peso1;
+		
+		System.out.println("O primeiro valor agora é: %f", n1);
+		
+		System.out.println("Informe o segundo valor:");
+		n2 = sc.nextDouble();
+		System.out.println("Este valor terá peso:");
+		peso2 = sc.nextDouble();
+		
+		n2 = n2 * peso2;
+		
+		System.out.println("O segundo valor agora é: %f", n2);
+				
+		System.out.println("Informe o terceiro valor:");
+		n3 = sc.nextDouble();
+		System.out.println("Este valor terá peso:");
+		peso3 = sc.nextDouble();
+		
+		n3 = n3 * peso3;
+		
+		System.out.println("O primeiro valor agora é: %f", n3);
+				
+		System.out.println("Informe o quarto valor:");
+		n4 = sc.nextDouble();
+		System.out.println("Este valor terá peso:");
+		peso4 = sc.nextDouble();
+		
+		n4 = n4 * peso4;
+		
+		System.out.println("O primeiro valor agora é: %f", n4);
+		
+	}
+
+}
